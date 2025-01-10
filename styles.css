@@ -55,8 +55,8 @@ button{
 .quo,
 .signup,
 .footer{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .header{
     display: flex;
@@ -66,10 +66,41 @@ button{
 }
 
 a{
-    margin-right:20px;
+    margin-left:16px;
     color: #E5E7EB;
     
 }
 .link-one{
     margin-left: auto;
+}
+
+.bar{
+    display: flex;
+    padding-bottom:100px ;
+}
+.bar-left,
+.bar-right{
+    flex: 1;
+}
+.bar-img{
+    width: 100%;
+    height: 100%;
+     padding-left: 30px;
+}
+h1,
+h2,
+p{
+    margin: 0;
+    padding: 0;
+}
+.bar-left p{
+    margin-bottom: 20px;
+}
+.bar-left > button{
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 7px 35px;
+    box-shadow: none;
+    border:none ;
 }
