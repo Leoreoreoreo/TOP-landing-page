@@ -168,3 +168,12 @@ p{
     box-shadow: none;
     border:2px solid white ;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: 300;
+    padding: 35px;
+}
