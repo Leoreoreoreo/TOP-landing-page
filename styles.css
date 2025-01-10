@@ -137,3 +137,34 @@ p{
     font-weight: bold;
 }
 
+.signup{
+    padding:100px 20%; 
+}
+.signup .container{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    width: 100%;
+    padding: 50px 80px;
+    border-radius: 15px;
+}
+.signup-left{
+    color: whitesmoke;
+    font-weight: 300;
+}
+.signup-left .bold{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.signup-right{
+    margin-left: auto;
+}
+.signup-right button{
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 7px 35px;
+    box-shadow: none;
+    border:2px solid white ;
+}
