@@ -125,3 +125,15 @@ p{
 .box{
     max-width: 150px;
 }
+
+.quo{
+    padding: 100px 350px;
+    display: flex;
+    flex-direction: column;
+}
+.quo-a{
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
