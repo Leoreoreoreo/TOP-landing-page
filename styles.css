@@ -49,16 +49,25 @@ button{
     font-weight: 300;
     color: #1F2937;
 }
-.header{
-    display: flex;
-    align-items: center;
+.header,
+.bar,
+.content,
+.quo,
+.signup,
+.footer{
     padding-left: 20%;
     padding-right: 20%;
 }
+.header{
+    display: flex;
+    align-items: flex-end;
+    padding-top:20px;
+    padding-bottom: 60px;
+}
 
 a{
-    margin-right: 10px;
-    word-spacing: -2px;
+    margin-right:20px;
+    color: #E5E7EB;
     
 }
 .link-one{
