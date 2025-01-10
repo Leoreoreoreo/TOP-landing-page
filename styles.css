@@ -104,3 +104,24 @@ p{
     box-shadow: none;
     border:none ;
 }
+
+.content{
+    padding-top: 35px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap:35px;
+    padding-bottom: 100px;
+}
+.content img{
+    width:150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+.box{
+    max-width: 150px;
+}
